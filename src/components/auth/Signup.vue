@@ -1,6 +1,6 @@
 <template>
     <div class="singup container">
-        <form class="card-panel">
+        <form @submit.prevent="singup" class="card-panel">
             <h2 class="center deep-purple-text">Signup</h2>
             <div class="field">
                 <label for="email">Email</label>
@@ -23,12 +23,17 @@
 
 <script>
 export default {
-    name: 'Singup',
+    name: 'Signup',
     data(){
         return{
             email: null,
             password: null,
             alias: null
+        }
+    },
+    methods: {
+        signup(){
+            
         }
     }
 }
