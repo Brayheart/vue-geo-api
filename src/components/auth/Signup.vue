@@ -77,7 +77,7 @@ export default {
 </script>
 
 <style>
-.singup{
+.signup{
     max-width: 400px;
     margin-top: 60px;
 }
