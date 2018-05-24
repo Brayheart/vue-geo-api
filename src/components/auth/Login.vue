@@ -60,6 +60,8 @@ export default {
 }
 .login .field{
     margin-bottom: 16px;
+}.red-text{
+    font-size: .5em;
 }
 </style>
 
